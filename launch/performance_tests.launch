@@ -1,0 +1,7 @@
+<!--xml-->
+<launch>
+  <node pkg="performance_tests" type="talker" name="talker" output="screen">
+  </node>
+  <node pkg="performance_tests" type="listener" name="listener" output="screen">
+  </node>
+</launch>
